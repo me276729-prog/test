@@ -1,0 +1,116 @@
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f3f7f2, #e5eee8);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #46594f;
+}
+
+.main-container {
+    max-width: 650px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: bold;
+    color: #52796f;
+}
+
+.form-card {
+    background: #f5f8f5;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 20px #d3dfd6,
+                -8px -8px 20px #ffffff;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #52796f;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    background: #edf3ee;
+    border: 1px solid #e1eae2;
+    border-radius: 13px;
+    padding: 13px;
+    margin-bottom: 20px;
+    color: #46594f;
+}
+
+.form-control:focus {
+    background: #ffffff;
+    border-color: #9bbcac;
+    box-shadow: 0 0 8px #c5dfd0;
+}
+
+.btn {
+    width: 100%;
+    padding: 13px;
+    border-radius: 14px;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #86b9a5;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #689d87;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-success {
+    background: #b39ac8;
+    color: white;
+}
+
+.btn-success:hover {
+    background: #957bac;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.section-card {
+    background: #f8faf8;
+    padding: 22px;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px #d3dfd6,
+                -6px -6px 15px #ffffff;
+}
+
+.section-card h4 {
+    color: #0c5744;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#errorMessage {
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .main-container {
+        margin: 25px auto;
+    }
+
+    .form-card {
+        padding: 22px;
+    }
+}
